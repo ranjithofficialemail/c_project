@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+void fact()
 // Function to calculate the factorial of a number
 unsigned long long factorial(int n) {
     unsigned long long result = 1;
@@ -9,7 +9,8 @@ unsigned long long factorial(int n) {
     return result;
 }
 
-int main() {
+// int main() 
+	{
     int num;
 
     // Ask the user for input
